@@ -1,0 +1,8 @@
+*.o
+*.out
+open
+hello_server
+hello_client
+data.txt
+deat.txt
+.vscode/
