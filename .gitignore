@@ -1,8 +1,18 @@
+# 컴파일 결과
 *.o
 *.out
+*.exe
+
+# 실행 파일
 open
+fd_seri
 hello_server
 hello_client
+
+# 프로그램 실행 중 생성되는 파일
 data.txt
 deat.txt
+test.dat
+
+# VS Code 설정
 .vscode/
