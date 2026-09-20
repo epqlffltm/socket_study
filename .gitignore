@@ -1,18 +1,28 @@
 # 컴파일 결과
 *.o
+*.a
+*.so
 *.out
 *.exe
 
-# 실행 파일
-open
-fd_seri
-hello_server
-hello_client
+# 확장자 없는 실행 파일 (소스/문서는 다시 포함)
+*
+!*.*
+!*/
+!Makefile
+!.gitignore
 
-# 프로그램 실행 중 생성되는 파일
-data.txt
-deat.txt
-test.dat
+# 실행 중 생성되는 파일
+*.txt
+*.dat
+!README.txt
 
-# VS Code 설정
+# 디버그
+core
+*.dSYM/
+vgcore.*
+
+# 에디터
 .vscode/
+.idea/
+*.swp
